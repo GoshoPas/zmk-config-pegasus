@@ -34,7 +34,7 @@
 // | TRNS  |  TRNS  |     TRNS     |    TRNS   |    TRNS    |    TRNS    |   TRNS    | NONE |     |  TRNS   | TRNS |  TRNS  |      TRNS      |  TRNS  |  TRNS   |  TRNS   |  TRNS  |
 // | TRNS  |  TRNS  |     TRNS     |    TRNS   |    TRNS    |    TRNS    |   NONE    | TRNS |     |  TRNS   | NONE |  TRNS  |      TRNS      |  TRNS  |  TRNS   |  TRNS   |  TRNS  |
                         bindings = <
-   &trans    &none    &c BRIGHTNESS_DOWN &c BRIGHTNESS_UP &c VOLUME_DECREMENT &c VOLUME_INCREMENT &c MUTE   &none       &none    &c SCAN_PREV_TRACK &c PLAY_PAUSE  &c SCAN_NEXT_TRACK       &trans    &trans    &trans    &trans
+   &trans    &none    &c BRIGHTNESS_DOWN &c BRIGHTNESS_UP &c VOLUME_DOWN &c VOLUME_UP &c MUTE   &none       &none    &c PREV_TRACK &c PLAY_PAUSE  &c NEXT_TRACK       &trans    &trans    &trans    &trans
    &trans    &bt BT_SEL 0   &bt BT_SEL 1       &bt BT_SEL 2       &bt BT_SEL 3       &bt BT_SEL 4       &trans       &none       &none    &trans   &trans    &trans         &trans    &trans    &trans    &trans
    &trans    &trans   &trans       &trans       &trans       &trans       &trans       &none       &none    &trans   &trans    &trans         &trans    &trans    &trans    &none 
    &trans    &trans   &trans       &trans       &trans       &trans       &trans       &trans      &trans   &trans   &trans    &trans         &trans    &trans    &trans    &trans
