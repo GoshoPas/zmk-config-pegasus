@@ -5,7 +5,7 @@
 / {
         keymap {
                 compatible = "zmk,keymap";
-
+        
                 default_layer {
 // -----------------------------------------------------------------------------------------
 // | ESC   |  NONE  |   F1  |     F2    |    F3   |   F4   |  F5  | NONE |      |  NONE  |  F6  |   F7   |       F8        |   F9   |  F10    |  F11    |  F12    |
@@ -20,13 +20,13 @@
    &kp TAB    &kp Q    &kp W   &kp E     &kp R     &kp T    &kp Y   &none         &none    &kp U   &kp I     &kp O           &kp P    &kp LBKT  &kp RBKT  &none 
    &kp DEL    &kp A    &kp S   &kp D     &kp F     &kp G    &kp H   &kp RET       &kp J    &kp K   &kp L     &kp SEMI        &kp APOS &kp BSLH  &kp INS   &kp PG_UP
    &kp LSHIFT &kp HOME &kp END &kp Z     &kp X     &kp C    &kp V   &none         &kp B    &kp N   &kp M     &kp COMMA       &kp DOT  &kp FSLH  &kp UP    &kp PG_DN
-   &kp LCTRL  &kp LWIN &mo 1   &kp CPSLK &kp PSCRN &kp LALT &none   &kp SAPCE    &kp SAPCE &none   &kp RALT  &kp PAUSE_BREAK &kp SLCK &kp LEFT  &kp DOWN  &kp RIGHT
+   &kp LCTRL  &kp LWIN &mo 1   &kp CAPS  &kp PSCRN &kp LALT &none   &kp SAPCE    &kp SAPCE &none   &kp RALT  &kp PAUSE_BREAK &kp SLCK &kp LEFT  &kp DOWN  &kp RIGHT
                         >;
                 };
                 lower_layer {
 // -----------------------------------------------------------------------------------------
 // | TRNS  |  NONE  |   C_BRI_DN   |  C_BRI_UP |  C_VOL_DN  |  C_VOL_UP  |  C_MUTE   | NONE |     |  NONE   | C_RW |  C_PP  |      C_FF      |  TRNS  |  TRNS   |  F11    |  F12   |
-// | TRNS  |  TRNS  |     TRNS     |    TRNS   |    TRNS    |    TRNS    |   TRNS    | NONE |     |  NONE   | TRNS |  TRNS  |      TRNS      |  TRNS  |  TRNS   |  TRNS   |  TRNS  |
+// | TRNS  |  BTL0  |     BTL1     |    BTL2   |    BTL3    |    BTL4    |   TRNS    | NONE |     |  NONE   | TRNS |  TRNS  |      TRNS      |  TRNS  |  TRNS   |  TRNS   |  TRNS  |
 // | TRNS  |  TRNS  |     TRNS     |    TRNS   |    TRNS    |    TRNS    |   TRNS    | NONE |     |  NONE   | TRNS |  TRNS  |      TRNS      |  TRNS  |  TRNS   |  TRNS   |  NONE  |
 // | TRNS  |  TRNS  |     TRNS     |    TRNS   |    TRNS    |    TRNS    |   TRNS    | TRNS |     |  TRNS   | TRNS |  TRNS  |      TRNS      |  TRNS  |  TRNS   |  TRNS   |  TRNS  |
 // | TRNS  |  TRNS  |     TRNS     |    TRNS   |    TRNS    |    TRNS    |   TRNS    | NONE |     |  TRNS   | TRNS |  TRNS  |      TRNS      |  TRNS  |  TRNS   |  TRNS   |  TRNS  |
