@@ -1,9 +1,11 @@
 if SHIELD_PEGASUS_LEFT
 
 config ZMK_PEGASUS
-    default "Pegasus"
+    bool "Enable Pegasus shield"
+    default y
 
 config ZMK_SPLIT_ROLE_CENTRAL
+    bool
     default y
 
 endif
@@ -11,6 +13,7 @@ endif
 if SHIELD_PEGASUS_LEFT || SHIELD_PEGASUS_RIGHT
 
 config ZMK_SPLIT
+    bool
     default y
 
 endif
