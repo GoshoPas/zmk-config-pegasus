@@ -1,0 +1,5 @@
+#include "pegasus_left.dtsi"
+
+/ {
+    compatible = "zmk,keyboard";
+};
