@@ -14,7 +14,6 @@ manifest:
     - name: zmk-config-pegasus
       remote: custom
       revision: main  # or a tag/commit/branch
-      path: modules/zmk-config-pegasus  # where to clone it inside the build tree
 
   self:
     path: config
