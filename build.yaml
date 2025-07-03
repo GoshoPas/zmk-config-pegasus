@@ -11,3 +11,5 @@ include:
     shield: pegasus_left
   - board: nice_nano_v2
     shield: pegasus_right
+  - board: nice_nano_v2
+    shield: settings_reset

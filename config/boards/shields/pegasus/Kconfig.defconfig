@@ -8,16 +8,6 @@ config ZMK_SPLIT_ROLE_CENTRAL
 
 endif
 
-if SHIELD_PEGASUS_RIGHT
-
-config ZMK_KEYBOARD_NAME
-    default "Pegasus"
-
-config ZMK_SPLIT_ROLE_PERIPHERAL
-    default y
-
-endif
-
 if SHIELD_PEGASUS_LEFT || SHIELD_PEGASUS_RIGHT
 
 config ZMK_SPLIT
