@@ -34,12 +34,12 @@
 // | TRNS  |  TRNS  |     TRNS     |    TRNS   |    TRNS    |    TRNS    |   TRNS    | NONE |     |  TRNS   | TRNS |  TRNS  |      TRNS      |  TRNS  |  TRNS   |  TRNS   |  TRNS  |
 // | TRNS  |  TRNS  |     TRNS     |    TRNS   |    TRNS    |    TRNS    |   NONE    | TRNS |     |  TRNS   | NONE |  TRNS  |      TRNS      |  TRNS  |  TRNS   |  TRNS   |  TRNS  |
                         bindings = <
-   &trans    &none    &trans &trans &trans &trans &trans   &none       &none    &trans &trans  &trans       &trans    &trans    &trans    &trans
-   &trans    &bt BT_SEL 0   &bt BT_SEL 1       &bt BT_SEL 2       &bootloader       &bt BT_CLR       &trans       &none       &none    &trans   &trans    &trans         &trans    &trans    &trans    &trans
-   &trans    &trans   &trans       &trans       &trans       &trans       &trans       &none       &none    &trans   &trans    &trans         &trans    &trans    &trans    &none 
-   &trans    &trans   &trans       &trans       &trans       &trans       &trans       &trans      &trans   &trans   &trans    &trans         &trans    &trans    &trans    &trans
-   &trans    &trans   &trans       &trans       &trans       &trans       &trans       &none       &trans   &trans   &trans    &trans         &trans    &trans    &trans    &trans
-   &trans    &trans   &trans       &trans       &trans       &trans       &none        &trans      &trans   &none    &trans    &trans         &trans    &trans    &trans    &trans
+   &trans    &none          &trans          &trans          &trans          &trans          &trans       &none        &none    &trans   &trans    &trans    &trans    &trans    &trans    &trans
+   &trans    &bt BT_SEL 0   &bt BT_SEL 1    &bt BT_SEL 2    &bootloader     &bt BT_CLR      &trans       &none        &none    &trans   &trans    &trans    &trans    &trans    &trans    &trans
+   &trans    &trans         &trans          &trans          &trans          &trans          &trans       &none        &none    &trans   &trans    &trans    &trans    &trans    &trans    &none 
+   &trans    &trans         &trans          &trans          &trans          &trans          &trans       &trans       &trans   &trans   &trans    &trans    &trans    &trans    &trans    &trans
+   &trans    &trans         &trans          &trans          &trans          &trans          &trans       &none        &trans   &trans   &trans    &trans    &trans    &trans    &trans    &trans
+   &trans    &trans         &trans          &trans          &trans          &trans          &none        &trans       &trans   &none    &trans    &trans    &trans    &trans    &trans    &trans
                         >;
                 };
         };

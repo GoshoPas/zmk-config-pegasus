@@ -1,10 +1,11 @@
 #include "pegasus.dtsi"
 
 
-    &default_transform {
-        col-offset = <8>;
-    };
+&default_transform {
+    col-offset = <8>;
+};
 
+/{
     kscan0: kscan {
         compatible = "zmk,kscan-gpio-matrix";
         wakeup-source;
@@ -25,4 +26,4 @@
                     <&gpio0 29 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
                     <&gpio0 31 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
     };
-
+};
