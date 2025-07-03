@@ -1,5 +1,29 @@
-#include "pegasus_left.dtsi"
+#include pegasus.dtsi
 
 / {
-    compatible = "zmk,keyboard";
+    chosen {
+        zmk,kscan = &kscan0;
+        zmk,matrix_transform = &default_transform;
+    };
+
+    kscan0: kscan {
+        compatible = "zmk,kscan-gpio-matrix";
+        wakeup-source;
+        diode-direction = "col2row";
+        row-gpios = <&gpio1 11 GPIO_ACTIVE_HIGH>,
+                    <&gpio1 13 GPIO_ACTIVE_HIGH>,
+                    <&gpio1 15 GPIO_ACTIVE_HIGH>,
+                    <&gpio0 2  GPIO_ACTIVE_HIGH>,
+                    <&gpio0 29 GPIO_ACTIVE_HIGH>,
+                    <&gpio0 31 GPIO_ACTIVE_HIGH>;
+
+        col-gpios = <&gpio1 6  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
+                    <&gpio1 4  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
+                    <&gpio0 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
+                    <&gpio1 0  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
+                    <&gpio0 24 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
+                    <&gpio0 22 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
+                    <&gpio0 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
+                    <&gpio0 17 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
+    };
 };

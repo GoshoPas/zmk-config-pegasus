@@ -1,8 +1,7 @@
 if SHIELD_PEGASUS_LEFT
 
 config ZMK_PEGASUS
-    bool "Pegasus"
-    default y
+    def_bool y
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
