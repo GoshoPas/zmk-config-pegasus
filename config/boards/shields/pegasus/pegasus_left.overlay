@@ -1,9 +1,6 @@
 #include "pegasus.dtsi"
 
-    kscan0: kscan {
-        compatible = "zmk,kscan-gpio-matrix";
-        wakeup-source;
-        diode-direction = "col2row";
+    &default_kscan {
         row-gpios = <&gpio1 11 GPIO_ACTIVE_HIGH>,
                     <&gpio1 13 GPIO_ACTIVE_HIGH>,
                     <&gpio1 15 GPIO_ACTIVE_HIGH>,
