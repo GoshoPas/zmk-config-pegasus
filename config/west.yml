@@ -2,10 +2,19 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: custom
+      url-base: https://github.com/GoshoPas  # or your GitHub org
+
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+
+    - name: zmk-config-pegasus
+      remote: custom
+      revision: main  # or a tag/commit/branch
+      path: modules/zmk-config-pegasus  # where to clone it inside the build tree
+
   self:
     path: config
