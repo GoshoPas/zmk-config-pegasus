@@ -1,7 +1,7 @@
 #include "pegasus.dtsi"
 
 &default_kscan {
-    diode_direction = "col2row";
+    diode-direction = "col2row";
     row-gpios = <&gpio1 11 GPIO_ACTIVE_HIGH>,
                 <&gpio1 13 GPIO_ACTIVE_HIGH>,
                 <&gpio1 15 GPIO_ACTIVE_HIGH>,
