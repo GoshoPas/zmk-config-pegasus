@@ -3,7 +3,3 @@ config SHIELD_PEGASUS_LEFT
 
 config SHIELD_PEGASUS_RIGHT
     def_bool $(shields_list_contains,pegasus_right)
-
-config ZMK_PEGASUS
-    bool "Enable Pegasus shield"
-    default y
