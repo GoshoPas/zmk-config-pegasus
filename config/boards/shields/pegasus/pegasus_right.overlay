@@ -1,6 +1,6 @@
 #include "pegasus.dtsi"
 
-/ {
+{
     &default_transform {
         col-offset = <8>;
     };
